@@ -1,0 +1,42 @@
+{
+    "production_network": [
+        {
+            "id": "A",
+            "flow_specs": [
+                {
+                    "product": "oil",
+                    "capacity": 1000,
+                    "min_flow": 300
+                },
+                {
+                    "product": "gas",
+                    "capacity": 1000,
+                    "min_flow": 300
+                }
+            ],
+            "parent_assets": []
+        },   
+        {
+            "id": "B",
+            "production_specs": [
+                {
+                    "product": "oil",
+                    "max_production": 1000,
+                    "min_production": 300
+                },
+                {
+                    "product": "gas",
+                    "max_production": 1000,
+                    "min_production": 300
+                }
+            ],
+            "parent_assets": [
+                {
+                    "id": "A",
+                    "products": ["oil", "gas"],
+                    "__comment__": "It could be expanded (and specify capacities for each product)"
+                }
+            ]
+        }   
+    ]
+}
