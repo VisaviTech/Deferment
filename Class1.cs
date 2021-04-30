@@ -10,9 +10,11 @@ namespace Deferment
         public string Name;
         public string Description;
         public string Type;
+        public string State;
+
 
         public List<ConnectionInfo> Connections;
-        public List<ProductionLimits> Production;
+        public List<ProductionLimits> ProductionLimits;
         public List<ExtendedInfo> ExtendedeInfo;
 
     }
