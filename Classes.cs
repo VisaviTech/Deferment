@@ -12,7 +12,6 @@ namespace Deferment
         public string Type;
         public string State;
 
-
         public List<ConnectionInfo> Connections;
         public List<ProductionLimits> ProductionLimits;
         public List<ExtendedInfo> ExtendedeInfo;
