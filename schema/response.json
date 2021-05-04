@@ -1,17 +1,37 @@
 {
-    "deferments": [
-        {
+  "deferments": [
+    {
+      "node": {
+        "Id": "A",
+        "Deferments": [
+          {
             "date": "2021-01-13",
             "deferment": [
-                {
-                    "product": "oil",
-                    "amount": 200
-                },
-                {
-                    "product": "gas",
-                    "amount": 200
-                }
+              {
+                "product": "oil",
+                "amount": 200
+              },
+              {
+                "product": "gas",
+                "amount": 200
+              }
             ]
-        }
-    ]
+          },
+          {
+            "date": "2021-01-14",
+            "deferment": [
+              {
+                "product": "oil",
+                "amount": 200
+              },
+              {
+                "product": "gas",
+                "amount": 200
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
 }
